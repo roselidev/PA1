@@ -14,7 +14,7 @@ We consider the _21.10_ fixed-point format for representing real numbers. In the
 ```
 bit31                                     bit10                 bit0
   S I I I I I I I I I I I I I I I I I I I I I . F F F F F F F F F F
-  ^       Integer (21 bits)                   ^  Fraction (10 bits)
+  ^              Integer (21 bits)            ^  Fraction (10 bits)
   |                                           |
   Sign bit                            Imaginary binary point
 ```
