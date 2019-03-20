@@ -5,7 +5,7 @@
 
 ## Introduction
 
-The purpose of this project is to understand the fixed-point representation. Another goal is to make your Linux development environment ready and to get familiar with our SYS server for project submission.
+The purpose of this project is to understand the fixed-point representation. Another goal is to make your Linux development environment ready and to get familiar with our sys.snu.ac.kr server for project submission.
 
 ## Problem Specification
 
@@ -82,6 +82,9 @@ $ ./pa1
 0xc0dec001 -> -1034319.9990234375, result = 3.1400000000 WRONG
 ```
 
+You are required to complete the `fix2double()` function in the `pa1.c` file.
+
+
 ## Restrictions
 
 * You should not use any array even in comment lines. Any source file that contains the symbol [ or ] will be rejected by the server.
@@ -104,7 +107,7 @@ $ ./pa1
 
 Have fun!
 
-Jin-Soo Kim  
-Systems Software and Architecture Laboratory  
-Dept. of Computer Science and Engineering  
-Seoul National University  
+[Jin-Soo Kim](mailto:jinsoo.kim_AT_snu.ac.kr)
+[Systems Software and Architecture Laboratory](http://csl.snu.ac.kr)  
+[Dept. of Computer Science and Engineering](http://cse.snu.ac.kr)
+[Seoul National University](http://www.snu.ac.kr)
