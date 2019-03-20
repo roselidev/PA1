@@ -102,12 +102,12 @@ You are required to complete the `fix2double()` function in the `pa1.c` file.
 
 * You will work on this project alone.
 * Only the upload submitted before the deadline will receive the full credit. 25% of the credit will be deducted for every single day delay.
-* You can use up to 5 _slip days_ during this semester. If your submission is delayed by 1 day and if you decided to use 1 slip day, there will be no penalty. In this case, you should explicitly declare the number of slip days you want to use in the QnA board of the submission server after each submission. Saving the slip days for later projects is highly recommended!
+* <span style="color:blue">You can use up to 5 _slip days_ during this semester.</span> If your submission is delayed by 1 day and if you decided to use 1 slip day, there will be no penalty. In this case, you should explicitly declare the number of slip days you want to use in the QnA board of the submission server after each submission. Saving the slip days for later projects is highly recommended!
 * Any attempt to copy others' work will result in heavy penalty (for both the copier and the originator). Don't take a risk.
 
 Have fun!
 
-[Jin-Soo Kim](mailto:jinsoo.kim_AT_snu.ac.kr)
+[Jin-Soo Kim](mailto:jinsoo.kim_AT_snu.ac.kr)  
 [Systems Software and Architecture Laboratory](http://csl.snu.ac.kr)  
-[Dept. of Computer Science and Engineering](http://cse.snu.ac.kr)
+[Dept. of Computer Science and Engineering](http://cse.snu.ac.kr)  
 [Seoul National University](http://www.snu.ac.kr)
