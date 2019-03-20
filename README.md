@@ -23,18 +23,18 @@ For the given 32-bit _B_ represented in the 21.10 fixed-point format, the corres
 
 V(B) = -b<sub>31</sub> &sdot; 2<sup>21</sup> +
 b<sub>30</sub> &sdot; 2<sup>20</sup> +
-b<sub>29</sub> &sdot; 2<sup>19</sup> + &hellip;
+b<sub>29</sub> &sdot; 2<sup>19</sup> + &hellip; +
 b<sub>10</sub> &sdot; 2<sup>0</sup> +
 b<sub>9</sub> &sdot; 2<sup>-1</sup> +
-b<sub>8</sub> &sdot; 2<sup>-2</sup> + &hellip;
+b<sub>8</sub> &sdot; 2<sup>-2</sup> + &hellip; +
 b<sub>0</sub> &sdot; 2<sup>-10</sup>
 
 Here are some examples:
 
-0000 0000 0000 0000 0000 0100 0000 0000 -> 1.0
-0000 0000 0000 0000 0000 1111 0000 0000 -> 3.75
-1111 1111 1111 1111 1111 1111 1111 1111 -> -0.0009765625
-1111 1111 1111 1111 0000 0000 0110 0000 -> -63.90625
+0000 0000 0000 0000 0000 0100 0000 0000 -> 1.0  
+0000 0000 0000 0000 0000 1111 0000 0000 -> 3.75  
+1111 1111 1111 1111 1111 1111 1111 1111 -> -0.0009765625  
+1111 1111 1111 1111 0000 0000 0110 0000 -> -63.90625  
 
 In C, the new type `fixp` is defined as follows:
 
@@ -42,7 +42,7 @@ In C, the new type `fixp` is defined as follows:
 typedef int fixp;
 ```
 
-As you can see, the type `fixp` is an alias for 32-bit integers but you have to interpret its bit pattern as 21.10 fixed-point values.
+As you can see, the type `fixp` is an alias for 32-bit integers but you have to interpret its bit pattern as a 21.10 fixed-point value.
 
 Your task is to implement the C function named `fix2double()` that converts a `fixp`-type value to the corresponding `double`-type value.
 
@@ -91,20 +91,20 @@ $ ./pa1
 ## Hand in instructions
 
 * Register an account to the submission server at https://sys.snu.ac.kr
- * You must enter your real name & student ID
- * Wait for an approval from the admin
+  * You must enter your real name & student ID
+  * Wait for an approval from the admin
 * Submit only the `pa1.c` file to the submission server
 
 ## Logistics
 
 * You will work on this project alone.
 * Only the upload submitted before the deadline will receive the full credit. 25% of the credit will be deducted for every single day delay.
-* You can use up to 5 _slip days_ during this semester. You should explicitly declare the number of slip days you want to use in the QnA board of the submission server after each submission.
+* You can use up to 5 _slip days_ during this semester. If your submission is delayed by 1 day and if you decided to use 1 slip day, there will be no penalty. In this case, you should explicitly declare the number of slip days you want to use in the QnA board of the submission server after each submission. Saving the slip days for later projects is highly recommended!
 * Any attempt to copy others' work will result in heavy penalty (for both the copier and the originator). Don't take a risk.
 
 Have fun!
 
-Jin-Soo Kim
-Systems Software and Architecture Laboratory
-Dept. of Computer Science and Engineering
-Seoul National University
+Jin-Soo Kim  
+Systems Software and Architecture Laboratory  
+Dept. of Computer Science and Engineering  
+Seoul National University  

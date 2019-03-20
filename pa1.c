@@ -20,7 +20,7 @@
 
 // fix2double() returns the double-precision floating-point value for 
 // the given fixed-point value 'a'. Note that 'a' is represented in 
-// (21.10) fixed-point format.
+// 21.10 fixed-point format.
 
 double fix2double (fixp a)
 {
