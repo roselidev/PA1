@@ -52,7 +52,7 @@ double fix2double (fixp a);
 
 ## Skeleton code
 
-We provide you with the skeleton code for this project. It can be download from Github at https://github.com/snu-csl/. If you don't have the git utility, you need to install it first. To download and build the skeleton code, please follow these steps:
+We provide you with the skeleton code for this project. It can be download from Github at https://github.com/snu-csl/ca-pa1/. If you don't have the git utility, you need to install it first. To download and build the skeleton code, please follow these steps:
 
 ```
 $ sudo apt install git        
