@@ -7,7 +7,7 @@
 
 The purpose of this project is to understand the fixed-point representation. Another goal is to make your Linux development environment ready and to get familiar with our sys.snu.ac.kr server for project submission.
 
-## Problem Specification
+## Problem specification
 
 We consider the _21.10_ fixed-point format for representing real numbers. In the 21.10 fixed-point representation, the most significant bit (bit 31) is used as a sign bit, and the next 21 bits (bits 30-10) are used to represent the integer part. The rest of the bits (bits 9-0) are used for the fractional part, as shown in the following figure.
 
