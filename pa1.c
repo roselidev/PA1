@@ -21,14 +21,15 @@
 // fix2double() returns the double-precision floating-point value for 
 // the given fixed-point value 'a'. Note that 'a' is represented in 
 // 21.10 fixed-point format.
-
 double fix2double (fixp a)
 {
 
-
-
-
-
-
-	return 3.14;
+  //get the integer part
+  double intPart=(int)a>>10;
+  //get the frac part
+  float fracPart =  a & 0b00000000000000000000001111111111;
+  fracPart = fracPart/(0b10000000000);
+  double ans=0;
+  ans=intPart+fracPart;
+  return ans;
 }
